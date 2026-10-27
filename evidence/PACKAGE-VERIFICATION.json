@@ -1,0 +1,20 @@
+{
+  "public_source_private_input_build_passed": true,
+  "core_cases": 510,
+  "extra_latch_cases": 330,
+  "EFI_DMA_cases": 49,
+  "handoff_cases": 20,
+  "display_cases": 69,
+  "full_entry_cases": 17,
+  "owner_release_cases": 42,
+  "AMD_direct_cases": 27,
+  "automatic_recovery_cases": 29,
+  "same_ESP_handoff_cases": 2,
+  "default_entry_cases": 12,
+  "manual_entry_cases": 15,
+  "rebuilt_private_EFI_sha256": "4702c9531195b51674912afe9a2244c18e250e5248ba17657232c575360a820c",
+  "original_measured_private_EFI_sha256": "4702c9531195b51674912afe9a2244c18e250e5248ba17657232c575360a820c",
+  "byte_identical_for_original_private_inputs": true,
+  "no_hardware_access_during_packaging": true,
+  "private_build_outputs_excluded": true
+}

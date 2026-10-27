@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "validated_private_artifact": "4702c9531195b51674912afe9a2244c18e250e5248ba17657232c575360a820c",
+  "runtime": "UEFI before Windows, payloads embedded, no E: runtime dependency",
+  "files": [
+    {
+      "path": "research/tu102/preflight.c",
+      "original_sha256": "c405e056055310c7575a9130dca7f14d2635912e6bb507d0fc058c39d0e2308a",
+      "public_sha256": "c405e056055310c7575a9130dca7f14d2635912e6bb507d0fc058c39d0e2308a",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/live_prom.h",
+      "original_sha256": "dd073b826d3630601445506edec0b673fa0b2140b0dff16ab8fb15552acbd7d3",
+      "public_sha256": "dd073b826d3630601445506edec0b673fa0b2140b0dff16ab8fb15552acbd7d3",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/tu102_profile.h",
+      "original_sha256": "7578740a612284fe4c51b8f6a126549a897d8c5d624c89e43c771786ed20ea42",
+      "public_sha256": "7578740a612284fe4c51b8f6a126549a897d8c5d624c89e43c771786ed20ea42",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/test_preflight.c",
+      "original_sha256": "873fbd30c31c1024771419f7c9fc4dd36fb69f0e7c4156f3ef47824571e2de5f",
+      "public_sha256": "873fbd30c31c1024771419f7c9fc4dd36fb69f0e7c4156f3ef47824571e2de5f",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/benchmark_tensor.py",
+      "original_sha256": "a9c7fddf45aa9a4084d48b33aee423c85d7c067ffd651b8babaa4e246a97625f",
+      "public_sha256": "a9c7fddf45aa9a4084d48b33aee423c85d7c067ffd651b8babaa4e246a97625f",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/compare_benchmark.py",
+      "original_sha256": "8da16baae9cba042dc95dcefbaaa6e7a1ed7fc4b58c0115e0d74abea998cb73c",
+      "public_sha256": "8da16baae9cba042dc95dcefbaaa6e7a1ed7fc4b58c0115e0d74abea998cb73c",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/verify_preflight_pe.py",
+      "original_sha256": "3bc60a26858bdb8307973da946a941a6135605d9f9c21c11edd7cde0287056a4",
+      "public_sha256": "3bc60a26858bdb8307973da946a941a6135605d9f9c21c11edd7cde0287056a4",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/verify_transaction_pe.py",
+      "original_sha256": "f2b71d2e63c3e92e85749d8856bfe28d4720b9e2b59413fbd202861b35ea9790",
+      "public_sha256": "f2b71d2e63c3e92e85749d8856bfe28d4720b9e2b59413fbd202861b35ea9790",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/experiment.c",
+      "original_sha256": "157a6497237d63fd532060ba2f060dae8a5550e013e92527dc37a27900a9702d",
+      "public_sha256": "157a6497237d63fd532060ba2f060dae8a5550e013e92527dc37a27900a9702d",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/tu102_core.h",
+      "original_sha256": "71a98104ff7a44d312858385c39c9a7a5f3a16160e089f3042771865151698af",
+      "public_sha256": "71a98104ff7a44d312858385c39c9a7a5f3a16160e089f3042771865151698af",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/efi_dma.h",
+      "original_sha256": "c08d8c4f50c76c484e38d55457561572cfef9bd2be7695f6a3a2b0f1add53d33",
+      "public_sha256": "c08d8c4f50c76c484e38d55457561572cfef9bd2be7695f6a3a2b0f1add53d33",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/amd_direct.h",
+      "original_sha256": "08ce6f50370bf0bab8052be7bfec4b09a3685f1c442e274ada5085765d457767",
+      "public_sha256": "08ce6f50370bf0bab8052be7bfec4b09a3685f1c442e274ada5085765d457767",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/display.h",
+      "original_sha256": "78aa398670a26bbe296be726f2eaab96dca37a8effa1e2ba388aa33096ff75f3",
+      "public_sha256": "78aa398670a26bbe296be726f2eaab96dca37a8effa1e2ba388aa33096ff75f3",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/owner_release.h",
+      "original_sha256": "261e2f3fe6cfc837ac31631e016023b410bbe0c7addd7f9f6afd9caa00136ead",
+      "public_sha256": "261e2f3fe6cfc837ac31631e016023b410bbe0c7addd7f9f6afd9caa00136ead",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/handoff.h",
+      "original_sha256": "d74b6f35d1ee8b85d0cb7702eafc13fc7430ea5b2ae8ff9c17ac24fdb3b33000",
+      "public_sha256": "d74b6f35d1ee8b85d0cb7702eafc13fc7430ea5b2ae8ff9c17ac24fdb3b33000",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/internal_auto.h",
+      "original_sha256": "300233887c8006afe2152d019daed92b8f7d3f6675d9be67ff2ae2d364b78707",
+      "public_sha256": "7ff8c9c362451f7b2aaed62fb8746ec191001b77eeb066f6318e67d9dd67de87",
+      "publication_edit": true
+    },
+    {
+      "path": "research/tu102/transaction/automatic_recovery.h",
+      "original_sha256": "e655916d818850e41bad0e7780581eb75fa8f7aab0c5732ec525fde7d1b286d3",
+      "public_sha256": "e655916d818850e41bad0e7780581eb75fa8f7aab0c5732ec525fde7d1b286d3",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/dma64_routes.h",
+      "original_sha256": "55a6efef545ec5a11132ef10e40c920f7b4499160ce982b3a82286fa23f54610",
+      "public_sha256": "55a6efef545ec5a11132ef10e40c920f7b4499160ce982b3a82286fa23f54610",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/high_pages_probe.h",
+      "original_sha256": "b5d35ddd6c2c8de0c8ff980c751d9109b48b7faa9071702d723548808d14f7a7",
+      "public_sha256": "b5d35ddd6c2c8de0c8ff980c751d9109b48b7faa9071702d723548808d14f7a7",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/vendor/IoMmu.h",
+      "original_sha256": "e315c2857190b3d491d2c74d1f58a8e6ca742bce81bfe00413ce7de63fb3e42d",
+      "public_sha256": "e315c2857190b3d491d2c74d1f58a8e6ca742bce81bfe00413ce7de63fb3e42d",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_core.c",
+      "original_sha256": "bd41798cfea5936c08618ff32ef71360ee271d0becb6047980679860d2c6236f",
+      "public_sha256": "bd41798cfea5936c08618ff32ef71360ee271d0becb6047980679860d2c6236f",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_selector_latch.c",
+      "original_sha256": "2a0ad2865ec187dfe30f8ee8529f0de1cdeb68cdce2074e897ffdc4c4768b3db",
+      "public_sha256": "2a0ad2865ec187dfe30f8ee8529f0de1cdeb68cdce2074e897ffdc4c4768b3db",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_efi_dma.c",
+      "original_sha256": "1677e485a2a86c68d65783096f39d71fc136cfb6894da8d68dffe951ffd1bad2",
+      "public_sha256": "1677e485a2a86c68d65783096f39d71fc136cfb6894da8d68dffe951ffd1bad2",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_handoff.c",
+      "original_sha256": "2f99ff5b539bf2bd5abe7aa38fa6fbab9f6594705fc1904478992cd6ace823c0",
+      "public_sha256": "2f99ff5b539bf2bd5abe7aa38fa6fbab9f6594705fc1904478992cd6ace823c0",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_display.c",
+      "original_sha256": "bb7fdbaa4efab90886f318ab0dc7838b2ba797034ab0d12f9153e8378bb8f6ba",
+      "public_sha256": "bb7fdbaa4efab90886f318ab0dc7838b2ba797034ab0d12f9153e8378bb8f6ba",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_app.c",
+      "original_sha256": "0c7f2ee00a1b46a9065f0201bc6c889f96ca2565905e00c0bbade155e09a0c79",
+      "public_sha256": "0c7f2ee00a1b46a9065f0201bc6c889f96ca2565905e00c0bbade155e09a0c79",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_full_entry.c",
+      "original_sha256": "8120d50b5e3c1a5ad7fd17bc110c2a006d1ffabf7d44d1f8d4b866f8362b297c",
+      "public_sha256": "8120d50b5e3c1a5ad7fd17bc110c2a006d1ffabf7d44d1f8d4b866f8362b297c",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_owner_release.c",
+      "original_sha256": "057c74f0b63e182d23a4fcad4d5504db07990a08357b2892a6a4cf6ec1de4b6a",
+      "public_sha256": "057c74f0b63e182d23a4fcad4d5504db07990a08357b2892a6a4cf6ec1de4b6a",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_amd_direct.c",
+      "original_sha256": "3a8a2327f211b74aa148750a3311793b2960cb0deb09a27a946051184dda3200",
+      "public_sha256": "3a8a2327f211b74aa148750a3311793b2960cb0deb09a27a946051184dda3200",
+      "publication_edit": false
+    },
+    {
+      "path": "research/tu102/transaction/test_internal_auto.c",
+      "original_sha256": "fad2fdf5eded8be29bee50e5425c2ac660547eee562240ba7e382cfb9f5dbd13",
+      "public_sha256": "0895e432be43c5f95fa0d257f5ab3462a4f7493677c72983269f27b63ad11f0c",
+      "publication_edit": true
+    },
+    {
+      "path": "research/tu102/transaction/test_internal_handoff.c",
+      "original_sha256": "739dc6c3b13fae12c1c788e19f6df0cc0e6e1139d8c1f3fa923723d9227e01c2",
+      "public_sha256": "739dc6c3b13fae12c1c788e19f6df0cc0e6e1139d8c1f3fa923723d9227e01c2",
+      "publication_edit": false
+    }
+  ]
+}

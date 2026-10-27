@@ -1,0 +1,34 @@
+{
+  "description": "Private inputs are deliberately absent. Review docs/BUILD.md. Do not replace hashes to force another machine to pass.",
+  "local_ESP_GUID": "00000000-0000-0000-0000-000000000000",
+  "private_fixture_paths": [
+    "captures/capture-04/LIVE-PROM.BIN",
+    "captures/capture-04/NATIVE-FWSEC.BIN",
+    "assets/upstream-cmp50hx-efi/bl_gsp_tu102.bin",
+    "assets/upstream-cmp50hx-efi/booter_ucode_prod.bin",
+    "assets/upstream-cmp50hx-efi/v67_payload.bin",
+    "assets/upstream-cmp50hx-efi/gsp_rm_boot_dbg.bin",
+    "build/transaction/capture-19/ROOT-MAP-FIRST96.bin",
+    "build/transaction/amd-platform/WINDOWS-IVRS.bin",
+    "build/transaction/automatic-platform/WINDOWS-BOOT0000.bin"
+  ],
+  "source_lineage": [
+    {
+      "project": "haohervchb/Turing-unlock",
+      "revision": "a188b24a392414f29f931ea886329227cfbc2f98"
+    },
+    {
+      "project": "xrip/cmp50hx-unlock",
+      "revision": "df2fe11b370bb52cc314576d0f2f5ae47ce908f8"
+    },
+    {
+      "project": "impacifist/Windows-GPU-UNLOCK",
+      "role": "UEFI framework/SHA-256 and GPL-2.0 context"
+    },
+    {
+      "project": "chenxluo/tu102-22g-uefi-unlock",
+      "revision": "6ee61bdaa8929e27926734f963873f356fc159ca",
+      "role": "Windows high-physical allocation reference, not a compatible binary"
+    }
+  ]
+}

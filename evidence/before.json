@@ -1,0 +1,170 @@
+{
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "bdf": "0000:03:00.0",
+  "compute_capability": "7.5",
+  "sms": 68,
+  "vram_bytes": 23389601792,
+  "driver_api_version": 13050,
+  "threads_per_block": 1024,
+  "rounds": 2048,
+  "method": "four accumulators; 64 MMA per round; exact final value=8",
+  "ptx_sha256": "b8490d026fb6dc72f027411595e8ed2cbcc9523a3dcac17f819ff15196e04b3e",
+  "unix_timestamp": 1793063543.4595253,
+  "firmware_or_settings_changed": false,
+  "samples": [
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 0,
+      "milliseconds": 12.894368171691895,
+      "tflops": 45.3014347248435,
+      "median_sm_cycles": 16802932.5,
+      "flops_per_sm_cycle": 511.23199691482426,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 1,
+      "milliseconds": 12.896736145019531,
+      "tflops": 45.293116915753984,
+      "median_sm_cycles": 16802908.5,
+      "flops_per_sm_cycle": 511.2327271198317,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 2,
+      "milliseconds": 12.896191596984863,
+      "tflops": 45.29502943989842,
+      "median_sm_cycles": 16802924.0,
+      "flops_per_sm_cycle": 511.2322555288591,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 3,
+      "milliseconds": 12.887295722961426,
+      "tflops": 45.32629580364511,
+      "median_sm_cycles": 16802922.0,
+      "flops_per_sm_cycle": 511.23231637925835,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 4,
+      "milliseconds": 12.501343727111816,
+      "tflops": 46.72564732231007,
+      "median_sm_cycles": 16802918.5,
+      "flops_per_sm_cycle": 511.2324228674917,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 5,
+      "milliseconds": 10.451935768127441,
+      "tflops": 55.88757824452769,
+      "median_sm_cycles": 16802912.5,
+      "flops_per_sm_cycle": 511.23260541885224,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "sample": 6,
+      "milliseconds": 10.453696250915527,
+      "tflops": 55.87816634684043,
+      "median_sm_cycles": 16802929.5,
+      "flops_per_sm_cycle": 511.23208819033607,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 0,
+      "milliseconds": 5.229695796966553,
+      "tflops": 111.69547918768475,
+      "median_sm_cycles": 8389762.0,
+      "flops_per_sm_cycle": 1023.8903959373341,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 1,
+      "milliseconds": 5.233664035797119,
+      "tflops": 111.61079007988576,
+      "median_sm_cycles": 8389763.0,
+      "flops_per_sm_cycle": 1023.8902738968908,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 2,
+      "milliseconds": 5.230175971984863,
+      "tflops": 111.68522458457934,
+      "median_sm_cycles": 8389762.0,
+      "flops_per_sm_cycle": 1023.8903959373341,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 3,
+      "milliseconds": 5.228928089141846,
+      "tflops": 111.71187824536827,
+      "median_sm_cycles": 8389764.0,
+      "flops_per_sm_cycle": 1023.8901518564766,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 4,
+      "milliseconds": 5.232287883758545,
+      "tflops": 111.64014500448233,
+      "median_sm_cycles": 8389761.0,
+      "flops_per_sm_cycle": 1023.8905179778066,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 5,
+      "milliseconds": 5.231264114379883,
+      "tflops": 111.6619932154283,
+      "median_sm_cycles": 8389763.0,
+      "flops_per_sm_cycle": 1023.8902738968908,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "sample": 6,
+      "milliseconds": 5.247456073760986,
+      "tflops": 111.31744026764889,
+      "median_sm_cycles": 8389760.5,
+      "flops_per_sm_cycle": 1023.8905789980537,
+      "unique_sms": 68,
+      "exact_result_errors": 0,
+      "checked_threads": 69632
+    }
+  ]
+}

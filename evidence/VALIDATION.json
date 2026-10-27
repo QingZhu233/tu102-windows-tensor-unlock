@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "local_card": "RTX 2080 Ti 22GB, TU102 SM75,68SM,10de:1e07,subsystem10de:12a4",
+  "platform": "MAXSUN MS-iCraft B850 AIGA BIOS E1.6D / AMD signature00b40f40",
+  "driver": "621.01",
+  "GSP": "620.67.01",
+  "vbios": "90.02.0b.00.0e",
+  "vram_MiB": 22528,
+  "measured_private_EFI_sha256": "4702c9531195b51674912afe9a2244c18e250e5248ba17657232c575360a820c",
+  "FP16_input_FP32_acc_TFLOPS_before": 45.32629580364511,
+  "FP16_input_FP32_acc_TFLOPS_after": 89.94327864318016,
+  "per_SM_cycle_ratio": 1.9924385875355506,
+  "exact_arithmetic_passed": true,
+  "ordinary_restart_automatic_unlock_verified": true,
+  "unsafe_error_recovery_hardware_tested": false,
+  "FastStartup_preserved": true,
+  "FastStartup_shutdown_resume_separately_tested": false,
+  "public_build_byte_identical": false,
+  "reason": "Disk GUID initializer replaced with ignored private build binding; no binary release included."
+}

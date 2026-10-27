@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "mode": "FP16-input/FP32-accumulate",
+      "before": {
+        "median_tflops": 45.32629580364511,
+        "median_flops_sm_cycle": 511.23231637925835
+      },
+      "after": {
+        "median_tflops": 89.94327864318016,
+        "median_flops_sm_cycle": 1018.5989943492173
+      },
+      "per_sm_cycle_ratio": 1.9924385875355506
+    },
+    {
+      "mode": "FP16-input/FP16-accumulate",
+      "before": {
+        "median_tflops": 111.6619932154283,
+        "median_flops_sm_cycle": 1023.8903959373341
+      },
+      "after": {
+        "median_tflops": 93.4558360393293,
+        "median_flops_sm_cycle": 1023.8902738968908
+      },
+      "per_sm_cycle_ratio": 0.9999998808071218
+    }
+  ],
+  "observed_tensor_issue_rate_gain": true,
+  "interpretation": "Approximately doubled FP16->FP32 issue rate; FP16 accumulation control stable",
+  "limitation": "Microbenchmark with exact simple arithmetic, not exhaustive stability or application-speed certification"
+}

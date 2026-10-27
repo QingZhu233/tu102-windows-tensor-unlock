@@ -1,0 +1,7 @@
+# This tree is verified by byte-exact SHA-256 manifests
+# (SOURCE-MANIFEST.json, evidence/*.json, evidence/VALIDATION.json).
+# Line endings must therefore never be rewritten on checkout, otherwise those
+# hashes stop matching after a fresh clone. Vendored EDK2 headers keep the
+# upstream CRLF bytes they were imported with; the repository's own sources are
+# stored as LF. Do not reintroduce text/eol normalization rules here.
+* -text
